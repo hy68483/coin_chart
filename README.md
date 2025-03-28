@@ -4,7 +4,7 @@
 
 프로젝트명: 코인차트(Coin Chart)
 
-기술 스택: Vite, React, TypeScript, Chart.js 또는 Recharts
+기술 스택: React, TypeScript
 
 목적: 실시간으로 암호화폐 시세와 변동을 시각화하여 사용자에게 직관적인 데이터를 제공
 
@@ -14,23 +14,19 @@
 
 가격 차트 시각화: 차트 라이브러리(예: Chart.js 또는 Recharts)를 사용하여 가격 변동 그래프를 표시
 
-코인 정보 조회: 특정 코인의 상세 정보 및 역사적 데이터 제공
+코인 정보 조회: 특정 코인의 상세 정보 제공
 
-즐겨찾기 기능: 사용자가 선호하는 코인을 목록에 추가하여 관리
-
-테마 전환: 다크 모드와 라이트 모드 지원
 
 3. 시스템 아키텍처
 
-프론트엔드: Vite + React + TypeScript
+프론트엔드: React + TypeScript
 
-데이터 시각화: Chart.js 또는 Recharts
+사용한 라이브러리:apexchart, react-router, styled-components, tanstack
 
-API 통신: CoinGecko API 또는 Binance API 활용
+API 통신: 코인 파프리카
 
-상태 관리: Redux 또는 Recoil
 
-디자인 프레임워크: Tailwind CSS
+디자인 프레임워크: styled-components
 
 4. 개발 일정
 
